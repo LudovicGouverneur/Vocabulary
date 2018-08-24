@@ -26,3 +26,7 @@ is different from
     * visible to global
     * by definition also in block scope
   * defined on global scope
+* Cookies
+
+>When receiving an HTTP request, a server can send a Set-Cookie header with the response. The cookie is usually stored by the browser and, afterwards, the cookie value is sent along with every request made to the same server as the content of a Cookie HTTP header. Additionally, an expiration delay can be specified as well as restrictions to a specific domain and path, limiting how long and to which site the cookie is sent to.
+[ref](https://stackoverflow.com/questions/44044956/how-does-browser-page-lifecycle-sequence-work)
